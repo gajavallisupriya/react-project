@@ -1,0 +1,16 @@
+input{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+#question{
+    display: none;
+}
+p{
+    display: block;
+}
+#logout{
+    margin: auto;
+    box-shadow: inset;
+}

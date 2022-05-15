@@ -1,0 +1,28 @@
+.button{
+    margin: auto;
+    box-shadow: inset;
+
+}
+.MuiTextField-root{
+    width: 100%;
+}
+.MuiDialogTitle-root{
+    align-self: center;
+    margin-bottom: 3%;
+    color: #4285F4;
+}
+.login{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a85140;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.submit{
+    display: block;
+    float: right;
+}
+.MuiDialog-paper{
+    padding: 2%;
+    max-width: fit-content;
+}

@@ -1,0 +1,18 @@
+.chat {
+    text-align: center;
+    min-width: 50vh;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+  }
+
+  .react-chatbot-kit-chat-container {
+    position: relative;
+    width: 320px;
+}
+  
+  

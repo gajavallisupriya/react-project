@@ -1,0 +1,37 @@
+input{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+#question{
+    display: none;
+}
+p{
+    display: block;
+}
+#logout{
+    margin: auto;
+    box-shadow: inset;
+}
+#add{
+    display: inline;
+    margin: auto;
+    box-shadow: inset;
+}
+#updates{
+    display: inline;
+    margin: auto;
+    box-shadow: inset;
+}
+#staff{
+    display: inline;
+    margin: auto;
+    box-shadow: inset;
+}
+#strange{
+    display:None
+}
+#head{
+    display:inline-block;
+}
