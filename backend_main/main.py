@@ -11,19 +11,8 @@ import os.path
 import json
 import requests
 from encoding import getdata
-def hi():
-    launch_browser = True
-    appflow = flow.InstalledAppFlow.from_client_secrets_file("keys.json", scopes=["https://www.googleapis.com/auth/dialogflow"])
-    if launch_browser:
-        appflow.run_local_server()
-    else:
-        appflow.run_console()
 
-    credentials = appflow.credentials
-    return credentials
-
-
-def hello():
+def authentication():
     SCOPES = ['https://www.googleapis.com/auth/dialogflow']
     creds = None
     if os.path.exists('token.json'):
@@ -38,8 +27,8 @@ def hello():
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
 def document_upload(cur):
-    hello()
-    print("hello document")
+    authentication()
+    print("document uploaded")
     f = open('token.json')
     data =  json.load(f)
     encoded_string=getdata(cur)
@@ -51,3 +40,4 @@ def document_upload(cur):
     #return response.json()
 
 
+authentication()
